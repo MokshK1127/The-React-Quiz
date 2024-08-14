@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+QUIZ APPLICATION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technologies Used:-
 
-## Available Scripts
+React: The core library used for building the user interface.
+JavaScript (ES6+): Utilized for writing the application logic and managing state using React's useReducer and useEffect hooks.
+HTML/CSS: For structuring and styling the application components.
 
-In the project directory, you can run:
+Project Functionalities:-
+Quiz Application: This project is a React-based quiz application that dynamically fetches questions from a server and presents them to the user.
 
-### `npm start`
+State Management: The application uses the useReducer hook for state management, handling different states such as loading, error, ready, active, and finished.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Question Navigation: Users can navigate through questions, with the state tracking the current question index and the selected answer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Scoring System: The application calculates the score based on correct answers and displays the total points earned at the end of the quiz.
 
-### `npm test`
+Highscore Tracking: The highest score achieved by the user is stored and displayed after the quiz is finished.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Timer: A countdown timer is implemented for the quiz, with a fixed amount of time allocated per question.
 
-### `npm run build`
+Restart Functionality: Users can restart the quiz at any time, which resets the state while preserving the high score.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Error Handling: The application includes basic error handling to manage cases where the quiz questions fail to load.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Progress Tracking: The quiz tracks the user’s progress, showing the current question number, the total number of questions, and the points earned so far.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Responsive UI Components: Components like Header, Main, Footer, Progress, and others are designed to be reusable and responsive.
