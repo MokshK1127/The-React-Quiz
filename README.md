@@ -27,3 +27,8 @@ Project Functionalities:-
 9]Progress Tracking: The quiz tracks the user’s progress, showing the current question number, the total number of questions, and the points earned so far.
 
 10]Responsive UI Components: Components like Header, Main, Footer, Progress, and others are designed to be reusable and responsive.
+
+Viewing the Application:
+
+You can view the application on this **[https://mokshk1127.github.io/The-React-Quiz/](https://mokshk1127.github.io/The-React-Quiz/)**
+ . To fetch the quiz questions correctly, ensure you run npm run server locally on your machine before accessing the quiz.
